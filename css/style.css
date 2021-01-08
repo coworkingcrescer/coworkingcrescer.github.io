@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani&family=Cabin&display=swap');
+
+h1 {
+  font-family: 'Cabin', sans-serif !important;
+  font-weight: bold !important;
+}
+
+p,
+p.lead {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.bio {
+  font-size: 1.2em !important;
+}
+
+.section {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.fill-width {
+  width: 100%;
+}
+
+.fill-height {
+  height: 100%;
+}
+
+.modal-backdrop.fade.show {
+  opacity: 0.8 !important;
+}
+
+.bg-primary-light {
+  background-color: #D4E9E2 !important;
+}
+
+.bg-primary-dark {
+  background-color: #006341 !important;
+}
+
+.fg-primary-dark {
+  color: #006341 !important;
+}
+
+.bg-primary-light-transparent {
+  background-color: rgba(212, 233, 226, 0.9) !important;
+}
+
+.btn-success {
+  background-color: #006341 !important;
+  border-color: #008054 !important;
+}
+
+
+#google-maps {
+  width: 100% !important;
+}
+
+@media (min-width: 576px) {
+  #google-maps {
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  #google-maps {
+    height: 200px;
+  }
+}
+@media (min-width: 992px) {
+  #google-maps {
+    height: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  #google-maps {
+    height: 400px;
+  }
+}

@@ -1,759 +1,810 @@
 <!DOCTYPE html>
-<!-- saved from url=(0028)http://coworkingcrescer.com/ -->
-<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<!--
-			Programador, caso tenha gostado do tema, ele está disponivel aqui:
-			https://startbootstrap.com/template-overviews/freelancer/
-		-->
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<meta property="og:title" content="Crescer: Coworking de Psicologia.">
-		<meta property="og:description" content="Por uma Psicologia colaborativa!">
-		<meta property="og:type" content="company">
-		<meta property="og:url" content="http://coworkingcrescer.com">
-		<meta property="og:image" content="http://coworkingcrescer.com/img/512x512.jpg">
+<html><head>
+	<meta name="generator" content="Hugo 0.78.1" />
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  
+  
+  <title>Crescer</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.3/sandstone/bootstrap.min.css" integrity="sha512-gjbcsSBcaUpG/0hU6zI8h1RpZzCaKQ9qaOcq9ihiZwidiSeb22wgJU+FwqK3Xm+5iaAvjiFq95a/v8iNRg5lwg==" crossorigin="anonymous" />
+</head>
+<body><nav class="site-header sticky-top py-1 bottom-shadow">
+  <div class="container d-flex justify-content-between">
+    
+    <a class="py-1 d-block d-sm-none d-md-none d-lg-none text-center" href="#">
+      <img id="nav-logo" src="img/logos/small.png" alt="" class="img-fluid">
+    </a>
+    <a class="py-1 d-block d-sm-none d-md-none d-lg-none align-self-center" href="#" data-toggle="modal" data-target="#mobile-menu">
+      <i class="fas fa-bars"></i>
+    </a>
 
-		<title>Crescer: Coworking de Psicologia</title>
+    
+    <a class="py-2 d-none d-md-inline-block text-center" href="#begin">
+      <img id="nav-logo" src="img/logos/small.png" alt="" class="img-fluid">
+    </a>
 
-		<link rel="shortcut icon" href="http://coworkingcrescer.com/img/favicon.ico">
+    
+    <a class="nav-links py-2 d-none d-md-inline-block" href="#about">Quem Somos</a>
+    
+    <a class="nav-links py-2 d-none d-md-inline-block" href="#services">Serviços</a>
+    
+    <a class="nav-links py-2 d-none d-md-inline-block" href="#events">Eventos</a>
+    
+    <a class="nav-links py-2 d-none d-md-inline-block" href="#wherearewe">Onde Estamos</a>
+    
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" integrity="sha512-KulI0psuJQK8UMpOeiMLDXJtGOZEBm8RZNTyBBHIWqoXoPMFcw+L5AEo0YMpsW8BfiuWrdD1rH6GWGgQBF59Lg==" crossorigin="anonymous" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+  </div>
+</nav>
 
-		<link href="css/freelancer.min.css" rel="stylesheet">
-		<link href="css/base.css" rel="stylesheet" type="text/css">
-		<link href="css/base1.css" rel="stylesheet" type="text/css">
-	</head>
-	<body id="page-top">
-		<!-- Navigation -->
-		<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-			<div class="container">
-				<a class="navbar-brand js-scroll-trigger" href="http://coworkingcrescer.com/#page-top">
-					Início
-				</a>
-				<button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					Menu
-					<i class="fas fa-bars"></i>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">
-								Serviços
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">
-								Sobre
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#events">
-								Eventos
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">
-								Contatos
-							</a>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#crescentes">
-								Crescentes
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- Header -->
-		<header class="masthead text-secondary text-center">
-			<div class="container">
-				<img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-				<hr class="star-dark">
-				<h2 class="font-weight-light mb-0">
-					Por uma Psicologia colaborativa!
-				</h2>
-			</div>
-		</header>
-		<!-- Portfolio Grid Section -->
-		<section class="portfolio bg-primary" id="portfolio">
-			<div class="container">
-				<h2 class="text-center text-uppercase text-white mb-0">
-					Serviços
-				</h2>
-				<hr class="star-light mb-5">
-				<div class="row">
-					<div class="col-md-6 col-lg-4">
-						<h3 class="text-center text-white">
-							Psicoterapia
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img class="img-fluid" src="img/cabin.png" alt="">
-						</a>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<h3 class="text-center text-white">
-							Aluguel de Salas
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img class="img-fluid" src="img/cake.png" alt="">
-						</a>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<h3 class="text-center text-white">
-							Intervisões
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img class="img-fluid" src="img/circus.png" alt="">
-						</a>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<h3 class="text-center text-white">
-							Ensino
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>									
-								</div>
-							</div>
-							<img class="img-fluid" src="img/game.png" alt="">
-						</a>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<h3 class="text-center text-white">
-							Grupos Terapêuticos
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img class="img-fluid" src="img/safe.png" alt="">
-						</a>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<h3 class="text-center text-white">
-							Convivência
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img class="img-fluid" src="img/submarine.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- About Section -->
-		<section class="text-secondary mb-0" id="about">
-			<div class="container">
-				<h2 class="text-center text-uppercase text-secondary">
-					Sobre
-				</h2>
-				<hr class="star-dark mb-5">
-				<div class="row">
-					<div class="col-lg-4 ml-auto">
-						<p class="lead">
-							Somos um grupo de três psicólogos apaixonados pelo que fazemos, que buscamos desenvolver a Psicologia, enquanto profissão, de forma colaborativa, inovadora e ética. No Coworking Crescer o psicólogo não precisa se preocupar em administrar um negócio, uma clínica, podendo se dedicar exclusivamente aos seus clientes, projetos e rede de relacionamentos.
-						</p>
-					</div>
-					<div class="col-lg-4 mr-auto">
-						<p class="lead">
-							O Crescer está localizado em uma área nobre de Belém, de fácil acesso, a poucos passos da Praça Santuário de Nazaré, de empresas, escolas, faculdades e etc. Cercadas por toda a rede de serviços e comércio do bairro de Nazaré, é o endereço ideal para quem busca praticidade.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Events Section -->
-		<section class="portfolio bg-primary" id="events">
-			<div class="container">
-				<h2 class="text-center text-uppercase text-white mb-0">
-					Eventos
-				</h2>
-				<hr class="star-light mb-5">
-				<div class="row">
-					<div class="col-md-6 col-lg-4">
-						<h4 class="text-center text-white">
-							Grupo Terapêutico:
-						</h4>
-						<h3 class="text-center text-white">
-							Grupo Terapêutico para Profissionais da Psicologia
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#event-modal-grupo-terapeutico-para-ptofissionais-da-psicologia">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img class="img-fluid" src="img/grupo-terapeutico-segunda.png" alt="">
-						</a>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<h4 class="text-center text-white">
-							Grupo de Intervisões:
-						</h4>
-						<h3 class="text-center text-white">
-							Grupo de intervisões de interabordagens terapêuticas
-						</h3>
-						<a class="portfolio-item d-block mx-auto" href="#event-grupo-de-intervisoes-de-interabordagens-terapeuticas">
-							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-									<i class="fas fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img class="img-fluid" src="img/intervisao-quinta.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Contact Section -->
-		<section class="text-secondary mb-0" id="contact">
-			<div class="container">
-				<h2 class="text-center text-uppercase mb-0">
-					Contatos
-				</h2>
-				<hr class="star-dark mb-5">
-				<div class="row text-center">
-					<div class="col-md-4 col-lg-4 offset-md-2 offset-lg-2">
-						<div class="container">
-							<a href="https://wa.me/5591984823146" target="_blank">
-								<img class="img-fluid mb-4 d-block mx-auto" src="img/anapaula.png" alt="Ana Paula">
-								<h3>
-									Ana Paula:
-								</h3>
-								<h4>
-									<i class="fab fa-whatsapp"></i> (91) 9 8482 3146
-								</h4>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-4">
-						<div class="container">
-							<a href="https://wa.me/5591991120112" target="_blank">
-								<img class="img-fluid mb-4 d-block mx-auto" src="img/kenji.png" alt="Kenji">
-								<h3>
-									Kenji:
-								</h3>
-								<h4>
-									<i class="fab fa-whatsapp"></i> (91) 9 9112 0112
-								</h4>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Crescentes Section -->
-				<section class="portfolio bg-primary mb-0" id="crescentes">
-			<div class="container">
-				<h2 class="text-center text-uppercase text-white mb-0">
-					Quem está no Crescer?
-				</h2>
-				<hr class="star-light mb-5">
-				<div class="row text-center">
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/renanalencar" target="_blank">
-							<img class="img-fluid" src="img/200x200.png" alt="Renan Alencar">
-							<h3 class="text-center text-white">Renan Alencar</h3>
-						</a>
-						<br>
-					</div>
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/cibellelopes" target="_blank">
-							<img class="img-fluid" src="img/200x200(1).png" alt="Cibelle Lopes">
-							<h3 class="text-center text-white">Cibelle Lopes</h3>
-						</a>
-						<br>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/manuelaleao" target="_blank">
-							<img class="img-fluid" src="img/200x200(3).png" alt="Manuela Leão">
-							<h3 class="text-center text-white">Manuela Leão</h3>
-						</a>
-						<br>
-					</div>
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/yanvalderlon" target="_blank">
-							<img class="img-fluid" src="img/200x200(4).png" alt="Yan Valderlon">
-							<h3 class="text-center text-white">Yan Valderlon</h3>
-						</a>
-						<br>
-					</div>
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/jessicaleonardo" target="_blank">
-							<img class="img-fluid" src="img/200x200(5).png" alt="Jéssica Leonardo">
-							<h3 class="text-center text-white">Jéssica Leonardo</h3>
-						</a>
-						<br>
-					</div>
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/rubileneborges" target="_blank">
-							<img class="img-fluid" src="img/200x200(6).png" alt="Rubilene Borges">
-							<h3 class="text-center text-white">Rubilene Borges</h3>
-						</a>
-						<br>
-					</div>
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/anabeatrizqueiroz" target="_blank">
-							<img class="img-fluid" src="img/200x200(7).png" alt="Ana Beatriz Queiroz">
-							<h3 class="text-center text-white">Ana Beatriz Queiroz</h3>
-						</a>
-						<br>
-					</div>
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/annacarolinadamasceno" target="_blank">
-							<img class="img-fluid" src="img/200x200(8).png" alt="Anna Carolina Damasceno">
-							<h3 class="text-center text-white">Anna Carolina Damasceno</h3>
-						</a>
-						<br>
-					</div>
-										
-					<div class="col-md-6 col-lg-4">
-						<a class="d-block mx-auto" href="http://bit.ly/leonardosouza" target="_blank">
-							<img class="img-fluid" src="img/200x200(9).png" alt="Leonardo Souza">
-							<h3 class="text-center text-white">Leonardo Souza</h3>
-						</a>
-						<br>
-					</div>
-				</div>
-			</div>
-		</section>
-				<!-- Footer -->
-		<footer class="footer text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 offset-md-2 mb-5 mb-lg-0">
-						<h4 class="text-uppercase mb-4">
-							Localização
-						</h4>
-						<p class="lead mb-0">
-							Av. Comandante Brás de Aguiar, 936,<br>
-							Alameda Dr. Feliciano Mendonça, 2, Nazaré - Belém, PA.
-						</p>
-					</div>
-					<div class="col-md-4 mb-5 mb-lg-0">
-						<h4 class="text-uppercase mb-4">
-							Pela Web
-						</h4>
-						<ul class="list-inline mb-0">
-							<li class="list-inline-item">
-								<a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://fb.me/crescercoworking" target="_blank">
-									<i class="fab fa-fw fa-facebook-f"></i>
-								</a>
-							</li>	
-							<li class="list-inline-item">
-								<a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.instagram.com/coworkingcrescer/" target="_blank">
-									<i class="fab fa-fw fa-instagram"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.youtube.com/channel/UCui1RcyYUUKdh0Sy1FfPetg" target="_blank">
-									<i class="fab fa-fw fa-youtube"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<!--div class="col-md-4">
-						<h4 class="text-uppercase mb-4">
-							Sobre o tema
-						</h4>
-						<p class="lead mb-0">
-							Programador, caso tenha gostado do tema, clique
-							<a href="https://startbootstrap.com/template-overviews/freelancer/">
-								aqui
-							</a> 
-							e bom proveito!
-						</p>
-					</div-->
-				</div>
-			</div>
-		</footer>
-		<div class="copyright py-4 text-center text-white">
-			<div class="container">
-				<small>
-					<a href=".">
-						http://coworkingcrescer.com.br
-					</a>
-				</small>
-			</div>
-		</div>
-		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-		<div class="scroll-to-top d-lg-none position-fixed ">
-			<a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-				<i class="fa fa-chevron-up"></i>
-			</a>
-		</div>
-		<!-- Portfolio Modals -->
-		<!-- Portfolio Modal 1 -->
-		<div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Convivência
-							</h2>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/submarine.png" alt="">
-							<p class="mb-5">
-								O espaço de convivência oferecido pelo Crescer é um local de desfrute da coexistência harmoniosa e compartilhamento de experiência pessoais e de trabalho entre os participantes. São disponibilizados internet de alta velocidade, mesas de trabalho, alimentação elétrica para os notebooks, água e cafezinho para os humanos.
-							</p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Portfolio Modal 2 -->
-		<div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Aluguel de salas
-							</h2>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/cake.png" alt="">
-							<p>
-								Assumimos nossa responsabilidade
-								social, acreditamos que prudência
-								em relação à segurança sanitária é
-								muito necessária para que a
-								pandemia de Coronavírus
-								(COVID-19) não alcance níveis
-								ainda mais preocupantes,
-								especialmentte em nossa cidade.
-								Como medida profilática,
-								comunicamos a suspensão
-								temporária de todas as nossas
-								atividades a partir de
-								segunda-feira, 23/03/2020.
-								Recomendamos fortemente
-								que considerem para o momento
-								a modalidade on-line de
-								atendimentos.
-								Desejamos saúde e proteção para todo mundo.
-								Fiquem bem!
-								<!--
-								São oferecidas cinco salas para atendimentos. Quatro mais intimistas (Salas 1, 2, 4 e 5) e uma mais ampla (Sala 3). Todas as salas são aconchegantes, climatizadas e isoladas acusticamente. Os horários para uso das salas podem, e devem, ser agendados através dos links:
-								<h4>
-									<a href="https://crescersala1.youcanbook.me/" target="_blank">
-										Sala 1</a>,
-								</h4>
-								<h4>
-									<a href="https://crescersala2.youcanbook.me/" target="_blank">
-										Sala 2</a>,
-								</h4>
-								<h4>
-									<a href="https://crescersala3.youcanbook.me/" target="_blank">
-										Sala 3</a>,
-								</h4>
-								<h4>
-									<a href="https://crescersala4.youcanbook.me/" target="_blank">
-										Sala 4</a>,
-								</h4>
-								<h4>
-									<a href="https://crescersala5.youcanbook.me/" target="_blank">
-										Sala 5</a>.
-								</h4>
-								As reservas poderão ser canceladas ou reagendadas sem custos com até 3 horas de antecedência utilizando os links (<em>cancel</em> e <em>reschedule</em>) encontrados no e-mail de confirmação enviado ao agendar a sala.
-								-->
-							</p>
-							<p class="mb-5">
-							</p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Portfolio Modal 3 -->
-		<div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Intervisões
-							</h2>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/circus.png" alt="">
-							<p class="mb-5">
-								As intervisões são ótimas ocasiões para aperfeiçoar as atividades dos profissionais da psicologia através da cooperação e do suporte recíproco entre esses profissionais. O grupo reflete a respeito de problemas, compartilha experiências e analisa casos. As intervisões devem ser tratadas como parcerias de crescimento conjunto que propiciam o desenvolvimento dos participantes.
-							</p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Portfolio Modal 4 -->
-		<div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Ensino
-							</h2>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/game.png" alt="">
-							<p class="mb-5">
-								No Crescer são oferecidas oportunidades de participar de processos de ensino e aprendizagem, de desenvolvimento de habilidades e competências, através de cursos, treinamentos ou <i>workshops</i>. É importante lembrar que além do treino básico exigido para o exercício do ofício da Psicologia, os avanços técnicos e tecnológicos exigem atualização constantemente das habilidades ao longo de toda sua vida profissional.
-							</p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Portfolio Modal 5 -->
-		<div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Grupos terapêuticos
-							</h2>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/safe.png" alt="">
-							<p class="mb-5">
-								Nos grupos terapêuticos, um dos benefícios é a possibilidade de encontrarmos alívio em sabermos que não estamos sozinhos e que outros passam por problemas e dúvidas parecidas. Outra vantagem é a troca de informações que pode despertar novas ideias para o enfrentamento do problema, além da promoção do autoconhecimento e do fortalecimento emocional através do sentimento de apoio entre pares em busca de crescimento mútuo.
-							</p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Portfolio Modal 6 -->
-		<div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Psicoterapia
-							</h2>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/cabin.png" alt="">
-							<p class="mb-5">
-								A psicoterapia é um processo que envolve a comunicação entre cliente e terapeuta. Tem como objetivo ajudar as pessoas a encontrar alívio emocional, lidando de modo mais eficiente com a ansiedade, com o medo, com o estresse ou com a depressão. É a busca de soluções para a vida, de como enfrentar a decepção, a tristeza, problemas familiares e a insatisfação profissional. É um processo capaz de promover a modificação de formas de pensar e agir que impedem o trabalho de maneira produtiva e o desfrute de relacionamentos pessoais.
-							</p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Events Modals -->
-		<!-- Event Grupo Terapêutico para Profissionais da Psicologia -->
-		<div class="portfolio-modal mfp-hide" id="event-modal-grupo-terapeutico-para-ptofissionais-da-psicologia">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Grupo Terapêutico:
-							</h2>
-							<h3>
-								Grupo Terapêutico para Profissionais da Psicologia.
-							</h3>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/grupo-terapeutico-segunda.png" alt="">
-							<p>
-								Psicólogos e psicólogas precisam de cuidados psicológicos? Sim, nós também precisamos e muitas vezes ou não temos tempo, ou não temos recursos para tal e acabamos cuidando da saúde mental dos outros e deixando a nossa um pouco de lado. Pensando em mudar um pouco esse quadro, o Coworking Crescer criou o projeto Grupo Terapêutico para profissionais de Psicologia. Um grupo onde pretendemos trabalhar diferentes aspectos da vida do psicólogo, enquanto indivíduo que também tem suas demandas, problemas, dúvidas e projetos. Queremos com isso, trazer bem-estar e melhorar a qualidade de vida dos nossos colegas de profissão. Um dos benefícios do grupo é a possibilidade de encontrarmos alívio em sabermos que não estamos sozinhos e que colegas passam por problemas e dúvidas parecidas. Outra vantagem é a troca de informações que pode despertar novas ideias para o enfrentamento do problema, além do próprio autoconhecimento e o fortalecimento emocional através do sentimento de apoio entre pares em busca de crescimento mútuo. Quer fazer parte desse grupo? Entre em contato para se inscrever e saiba mais.
-							</p>
-							<p>
-								Em caso de dúvidas, entre em contato através do WhatsApp:
-							</p>
-							<p class="mb-5">
-								</p><div class="row">
-									<div class="col-md-6 col-lg-4">
-										<a href="https://wa.me/5591984823146" target="_blank">
-											<img class="img-fluid mb-3 d-block mx-auto" src="img/anapaula100x100.png" alt="Ana Paula">
-											<p>
-												<strong>
-													Ana Paula:
-													<br>
-													<i class="fab fa-whatsapp"></i> (91) 9 8482 3146
-												</strong>
-											</p>
-										</a>
-									</div>
-									<div class="col-md-6 col-lg-4">
-										<a href="https://wa.me/5591982086183" target="_blank">
-											<img class="img-fluid mb-3 d-block mx-auto" src="img/kenji100x100.png" alt="Kenji">
-											<p>
-												<strong>
-													Kenji:
-													<br>
-													<i class="fab fa-whatsapp"></i> (91) 9 9112 0112
-												</strong>
-											</p>
-										</a>
-									</div>
-								</div>
-							<p></p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Event Grupo de Intervisoes de Interabordagens Terapêuticas -->
-		<div class="portfolio-modal mfp-hide" id="event-grupo-de-intervisoes-de-interabordagens-terapeuticas">
-			<div class="portfolio-modal-dialog bg-white">
-				<a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-					<i class="fa fa-3x fa-times"></i>
-				</a>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
-								Grupo de Intervisões:
-							</h2>
-							<h3>
-								Grupo de intervisões de interabordagens terapêuticas.
-							</h3>
-							<hr class="star-dark mb-5">
-							<img class="img-fluid mb-5" src="img/intervisao-quinta.png" alt="">
-							<p>
-								Os psicólogos e as psicólogas, nas intervisões, podem aperfeiçoar suas atividades profissionais através da cooperação e do suporte recíproco, discutindo casos (preservando sempre o sigilo profissional, claro) e compartilhando experiências com colegas, independente de abordagem. Entendemos que cada observação e olhar sobre o fenômeno pode ser relevante para as suas análises. Nesse projeto, o que se pretende é desenvolver parcerias de crescimento conjunto que propiciem o fortalecimento profissional dos participantes e o fazer da psicologia clínica de forma colaborativa.
-							</p>
-							<p>
-								Em caso de dúvidas, entre em contato através do WhatsApp:
-							</p>
-							<p class="mb-5">
-								</p><div class="row">
-									<div class="col-md-6 col-lg-4">
-										<a href="https://wa.me/5591984823146" target="_blank">
-											<img class="img-fluid mb-3 d-block mx-auto" src="img/anapaula100x100.png" alt="Ana Paula">
-											<p>
-												<strong>
-													Ana Paula:
-													<br>
-													<i class="fab fa-whatsapp"></i> (91) 9 8482 3146
-												</strong>
-											</p>
-										</a>
-									</div>
-									<div class="col-md-6 col-lg-4">
-										<a href="https://wa.me/5591982086183" target="_blank">
-											<img class="img-fluid mb-3 d-block mx-auto" src="img/kenji100x100.png" alt="Kenji">
-											<p>
-												<strong>
-													Kenji:
-													<br>
-													<i class="fab fa-whatsapp"></i> (91) 9 9112 0112
-												</strong>
-											</p>
-										</a>
-									</div>
-								</div>
-							<p></p>
-							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-								<i class="fa fa-close"></i>
-								Voltar
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Bootstrap core JavaScript -->
-		<!-- <script src="./Crescer_ Coworking de Psicologia_files/jquery.min.js"></script> -->
-		<!-- <script src="./Crescer_ Coworking de Psicologia_files/bootstrap.bundle.min.js"></script> -->
-		<!-- Plugin JavaScript -->
-		<!-- <script src="./Crescer_ Coworking de Psicologia_files/jquery.easing.min.js"></script> -->
-		<!-- <script src="./Crescer_ Coworking de Psicologia_files/jquery.magnific-popup.min.js"></script> -->
-		<!-- Contact Form JavaScript -->
-		<!-- <script src="./Crescer_ Coworking de Psicologia_files/jqBootstrapValidation.js"></script> -->
-		<!-- <script src="./Crescer_ Coworking de Psicologia_files/contact_me.js"></script> -->
-		<!-- Custom scripts for this template -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js" integrity="sha512-JHVzEjx3zsh0SY+F9jc0VlW7VBXeDIJNXR0xcYySu1QLhf+Du8Zx9p28zP5MjIW7onsVy0qMsVls0YO6GTg2Aw==" crossorigin="anonymous"></script>
-		<script src="js/freelancer.min.js"></script>
-	
+  <div class="modal fade" id="mobile-menu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog fill-height d-flex flex-wrap align-items-center" role="document">
+      <div class="modal-content align-middle" style="background-color: rgba(0,0,0,0) !important; border: none;">
+        <div class="modal-body text-center" style="">
+          
+          <a class="mobile-nav-link" data-dismiss="modal" href="#about"><h2>Quem Somos</h2></a>
+          
+          <a class="mobile-nav-link" data-dismiss="modal" href="#services"><h2>Serviços</h2></a>
+          
+          <a class="mobile-nav-link" data-dismiss="modal" href="#events"><h2>Eventos</h2></a>
+          
+          <a class="mobile-nav-link" data-dismiss="modal" href="#wherearewe"><h2>Onde Estamos</h2></a>
+                   
+        </div>
+      </div>
+    </div>
+  </div>
 
-</body></html>
+<style type="text/css">
+  #nav-logo {
+    height: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .nav-links {
+    color: black !important;
+    padding-top: 20px !important;
+  }
+  .mobile-nav-link {
+    color: white !important;
+    padding-top: 20px !important;
+  }
+  .nav-links:hover {
+    color: #05b707 !important;
+  }
+  .center-cropped {
+     
+  }
+  .site-header {
+    background-color: rgba(255, 255, 255, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #05b707;
+    text-decoration: none;
+  }
+  .bottom-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #ccc;
+     -moz-box-shadow: 0 8px 6px -6px #ccc;
+          box-shadow: 0 8px 6px -6px #ccc;
+  }
+</style>
+<div id="content">
+<div id="begin" class="section">
+  <div class="container" style="height: 100vh;">
+    <div class="row" style="height: 90%;">
+      <div class="col-md-12">
+        <div class="d-flex flex-wrap align-items-center fill-height">
+          <div>
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <img id="logo-begin" src="img/logos/large.png" alt="" class="img-fluid" style="object-fit: cover;">
+              </div>
+            </div>
+            <br>
+            <br>
+            <h3 class="text-center d-none d-sm-none d-md-block d-lg-block">
+              Buscamos desenvolver a Psicologia enquanto profissão, de forma colaborativa, inovadora e ética. No Coworking Crescer o psicólogo não precisa se preocupar em administrar um negócio, uma clínica, podendo se dedicar exclusivamente aos seus clientes, projetos e rede de relacionamentos.
+            </h3>
+            <p class="text-center d-block d-sm-block d-md-none d-lg-none">
+              Buscamos desenvolver a Psicologia enquanto profissão, de forma colaborativa, inovadora e ética. No Coworking Crescer o psicólogo não precisa se preocupar em administrar um negócio, uma clínica, podendo se dedicar exclusivamente aos seus clientes, projetos e rede de relacionamentos.
+            </p>
+            <br>
+            <div class="text-center">
+              <a href="#about" class="btn btn-success btn-lg d-none d-sm-none d-md-inline-block d-lg-inline-block">Saiba Mais</a>
+              <a href="#about" class="btn btn-success btn-block d-inline-block d-sm-inline-block d-md-none d-lg-none">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  #logo-begin {
+     
+     
+  }
+</style>
+
+<div id="about" class="">
+  
+  
+  <div id="about-wrapper" class="bg-primary-light-transparent">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h1 class="title">Quem Somos</h1>
+          <br>
+          <br>
+        </div>
+        <div class="col-md-12 text-justify">
+          <h3>
+            Somos dois psicólogos, amigos desde os tempos de faculdade e apaixonados pelo que fazemos.
+          </h3>
+          <br>
+          <h3>
+            O Coworking Crescer nasceu do nosso sonho compartilhado de criar em Belém um espaço de referência em Psicologia Clínica, dedicado tanto a fornecer atendimentos clínicos à população em geral, quanto a criar uma comunidade de psicólogos, através do oferecimento de espaços de convivência, confraternizações, grupos terapêuticos de apoio mútuo, rodas de conversa, intervisões de casos e formações profissionais diversas.
+          </h3>
+          <br>
+          <h3>
+            O Crescer se tornou assim este espaço de compartilhamento de alegrias e também dificuldades inerentes à vida e a nossa profissão. Um lugar que contribui com nossa formação profissional e humana, onde podemos criar laços afetivos com pessoas que têm os mesmos objetivos. Um lugar que nos ajuda a crescer, dia após dia.
+          </h3>
+          <br>
+          <div class="text-center">
+            <a href="#wherearewe" class="btn btn-lg btn-success d-none d-sm-none d-md-inline-block d-lg-inline-block">Localização</a>
+            <a href="#wherearewe" class="btn btn-block btn-success d-inline-block d-sm-inline-block d-md-none d-lg-none">Localização</a>
+          </div>
+          <br>
+          <br>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+  <div class="col-md-12 text-center">
+    <h1>Fundadores</h1>
+    <br>
+    <br>
+  </div>
+  
+
+   
+  <div class="col-12 col-sm-4 col-md-4 text-center">
+  
+    <img src="img/staff/anapaula.png" class="img-fluid">
+    
+    <div style="margin-bottom: 10px;">
+      <h3 class="modal-title" id=""> Ana Paula</h3>
+      <b><i class="fas fa-id-card-alt"></i> CRP 10/04701</b>
+      <br>
+      <br>
+      <a href="mailto:psi.anapba@gmail.com" class="btn btn-success btn-block d-lg-none">
+        <i class="fas fa-envelope"></i> psi.anapba@gmail.com
+      </a>
+      <a href="https://wa.me/5591984823146" class="btn btn-success btn-block d-lg-none">
+        <i class="fas fa-phone-alt"></i> (91) 98482-3146
+      </a>
+      <a href="mailto:psi.anapba@gmail.com" class="btn btn-success d-none d-lg-inline-block">
+        <i class="fas fa-envelope"></i> psi.anapba@gmail.com
+      </a>
+      <a href="https://wa.me/5591984823146" class="btn btn-success d-none d-lg-inline-block">
+        <i class="fas fa-phone-alt"></i> (91) 98482-3146
+      </a>
+    </div>
+  </div>
+
+  
+  <div class="col-sm-8 col-md-8 d-none d-sm-none d-md-block d-lg-block">
+    <div class="card shadow">
+      <div class="card-body">
+        
+        <p class="text-justify bio"> Psicóloga pela Universidade Federal do Pará (UFPA), com formação em Coaching pela Sociedade Latino Americana de Coaching (SLAC), certificação em Análise Comportamental DISC, especialização em Clínica Analítico-Comportamental pelo Instituto Goiano de Análise do Comportamento (IGAC) e cursando pós-graduação em Terapias Comportamentais Contextuais com Ênfase em Terapia de Aceitação e Compromisso (ACT) Psicoterapia Analítica Funcional (FAP) pelo Instituto Continuum.</p>
+        
+        <p class="text-justify bio"> Iniciei minha trajetória na profissão atuando em Recursos Humanos, desenvolvendo pessoas, equipes e líderes através de projetos lúdicos, workshops, treinamentos e bate-papos voltados principalmente ao autoconhecimento, desenvolvendo-os não somente a nível profissional, mas em diversas áreas de suas vidas.</p>
+        
+        <p class="text-justify bio"> Logo percebi que poderia realizar esse trabalho de forma mais plena atuando na Clínica e, por este motivo, há alguns anos me dedico a atender e estudar principalmente adolescentes e adultos em casos de Ansiedade, Pânico, TDAH, Depressão, Automutilação, Bipolaridade, Estresse e Autoconhecimento, realizando também atendimento de Casais.</p>
+        
+        <p class="text-justify bio"> Atuo com Terapias Comportamentais de 3ª Geração promovendo qualidade de vida aos meus clientes através de uma escuta ativa e não punitiva, auxiliando-os a se ouvirem, se compreenderem e se posicionarem no mundo de forma mais próxima aos seus valores e seus objetivos.</p>
+        
+        <p class="text-justify bio"> Realizo atendimento presencial e online.</p>
+        
+      </div>
+    </div>
+    <br>
+  </div>
+
+  
+  <div class="col-sm-8 col-md-8 d-block d-sm-block d-md-none d-lg-none">
+    <div class="card shadow">
+      <div class="card-body">
+        <p class="text-justify bio"> Psicóloga pela Universidade Federal do Pará (UFPA), com formação em Coaching pela Sociedade Latino Americana de Coaching (SLAC), certificação em Análise Comportamental DISC, especialização em Clínica Analítico-Comportamental pelo Instituto Goiano de Análise do Comportamento (IGAC) e cursando pós-graduação em Terapias Comportamentais Contextuais com Ênfase em Terapia de Aceitação e Compromisso (ACT) Psicoterapia Analítica Funcional (FAP) pelo Instituto Continuum...</p>
+        <p class="text-center">
+          <b>
+            <a href="#" data-toggle="modal" data-target="#curriculum-5591984823146" style="color: #05b707 !important;">
+              Ler Mais
+            </a>
+          </b>
+        </p>
+      </div>
+    </div>
+    <br>
+  </div>
+
+  
+
+  
+  <div class="modal fade" id="curriculum-5591984823146" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id=""> Ana Paula </h5><br>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="overflow: scroll; height: 70vh !important;">
+          
+          <p class="text-justify"> Psicóloga pela Universidade Federal do Pará (UFPA), com formação em Coaching pela Sociedade Latino Americana de Coaching (SLAC), certificação em Análise Comportamental DISC, especialização em Clínica Analítico-Comportamental pelo Instituto Goiano de Análise do Comportamento (IGAC) e cursando pós-graduação em Terapias Comportamentais Contextuais com Ênfase em Terapia de Aceitação e Compromisso (ACT) Psicoterapia Analítica Funcional (FAP) pelo Instituto Continuum.</p>
+          
+          <p class="text-justify"> Iniciei minha trajetória na profissão atuando em Recursos Humanos, desenvolvendo pessoas, equipes e líderes através de projetos lúdicos, workshops, treinamentos e bate-papos voltados principalmente ao autoconhecimento, desenvolvendo-os não somente a nível profissional, mas em diversas áreas de suas vidas.</p>
+          
+          <p class="text-justify"> Logo percebi que poderia realizar esse trabalho de forma mais plena atuando na Clínica e, por este motivo, há alguns anos me dedico a atender e estudar principalmente adolescentes e adultos em casos de Ansiedade, Pânico, TDAH, Depressão, Automutilação, Bipolaridade, Estresse e Autoconhecimento, realizando também atendimento de Casais.</p>
+          
+          <p class="text-justify"> Atuo com Terapias Comportamentais de 3ª Geração promovendo qualidade de vida aos meus clientes através de uma escuta ativa e não punitiva, auxiliando-os a se ouvirem, se compreenderem e se posicionarem no mundo de forma mais próxima aos seus valores e seus objetivos.</p>
+          
+          <p class="text-justify"> Realizo atendimento presencial e online.</p>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <br>
+    <br>
+  </div>
+  
+
+  
+  <div class="col-12 col-sm-4 col-md-4 d-block d-sm-none d-md-none d-lg-none text-center">
+  
+    <img src="img/staff/kenji.png" class="img-fluid">
+    
+    <div style="margin-bottom: 10px;">
+      <h3 class="modal-title" id=""> Kenji</h3>
+      <b><i class="fas fa-id-card-alt"></i> CRP 10/06396</b>
+      <br>
+      <br>
+      <a href="mailto:psicologokenji@gmail.com" class="btn btn-success btn-block d-lg-none">
+        <i class="fas fa-envelope"></i> psicologokenji@gmail.com
+      </a>
+      <a href="https://wa.me/5591991120112" class="btn btn-success btn-block d-lg-none">
+        <i class="fas fa-phone-alt"></i> (91) 99112-0112
+      </a>
+      <a href="mailto:psicologokenji@gmail.com" class="btn btn-success d-none d-lg-inline-block">
+        <i class="fas fa-envelope"></i> psicologokenji@gmail.com
+      </a>
+      <a href="https://wa.me/5591991120112" class="btn btn-success d-none d-lg-inline-block">
+        <i class="fas fa-phone-alt"></i> (91) 99112-0112
+      </a>
+    </div>
+  </div>
+
+  
+  <div class="col-sm-8 col-md-8 d-none d-sm-none d-md-block d-lg-block">
+    <div class="card shadow">
+      <div class="card-body">
+        
+        <p class="text-justify bio"> Psicólogo e mestrando em Neurociências e Comportamento pela UFPA (Universidade Federal do Pará/ Belém/PA), Treinamento Intensivo em Ativação Comportamental para Depressão pelo IACC-Sul (Curitiba, PR) e Formação em Terapia de Aceitação e Compromisso e Terapia Analítica Funcional pelo Instituto Continuum (Londrina, PR).</p>
+        
+        <p class="text-justify bio"> Curso especialização em Clínica Analítico-Comportamental pelo Instituto Goiano de Análise do Comportamento (Goiânia, GO). Atuo na clínica, atendendo a adolescentes e adultos, com experiência em demandas de ansiedade, depressão, relacionamentos, estresse, autoconhecimento, entre outros.</p>
+        
+        <p class="text-justify bio"> Em terapia, atuarei no sentido de auxiliar você a lidar com emoções difíceis e construir uma vida com mais sentido e significado.</p>
+        
+        <p class="text-justify bio"> Realizo atendimento presencial e online.</p>
+        
+      </div>
+    </div>
+    <br>
+  </div>
+
+  
+  <div class="col-sm-8 col-md-8 d-block d-sm-block d-md-none d-lg-none">
+    <div class="card shadow">
+      <div class="card-body">
+        <p class="text-justify bio"> Psicólogo e mestrando em Neurociências e Comportamento pela UFPA (Universidade Federal do Pará/ Belém/PA), Treinamento Intensivo em Ativação Comportamental para Depressão pelo IACC-Sul (Curitiba, PR) e Formação em Terapia de Aceitação e Compromisso e Terapia Analítica Funcional pelo Instituto Continuum (Londrina, PR)...</p>
+        <p class="text-center">
+          <b>
+            <a href="#" data-toggle="modal" data-target="#curriculum-5591991120112" style="color: #05b707 !important;">
+              Ler Mais
+            </a>
+          </b>
+        </p>
+      </div>
+    </div>
+    <br>
+  </div>
+
+   
+  <div class="col-12 col-sm-4 col-md-4 d-none d-sm-none d-md-block d-lg-block text-center">
+    <img src="img/staff/kenji.png" class="img-fluid">
+    
+    <div style="margin-bottom: 10px;">
+      <h3 class="modal-title" id=""> Kenji</h3>
+      <b><i class="fas fa-id-card-alt"></i> CRP 10/06396</b>
+      <br>
+      <br>
+      <a href="mailto:psicologokenji@gmail.com" class="btn btn-success btn-block d-lg-none">
+        <i class="fas fa-envelope"></i> psicologokenji@gmail.com
+      </a>
+      <a href="https://wa.me/5591991120112" class="btn btn-success btn-block d-lg-none">
+        <i class="fas fa-phone-alt"></i> (91) 99112-0112
+      </a>
+      <a href="mailto:psicologokenji@gmail.com" class="btn btn-success d-none d-lg-inline-block">
+        <i class="fas fa-envelope"></i> psicologokenji@gmail.com
+      </a>
+      <a href="https://wa.me/5591991120112" class="btn btn-success d-none d-lg-inline-block">
+        <i class="fas fa-phone-alt"></i> (91) 99112-0112
+      </a>
+    </div>
+  </div>
+  
+
+  
+  <div class="modal fade" id="curriculum-5591991120112" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id=""> Kenji </h5><br>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="overflow: scroll; height: 70vh !important;">
+          
+          <p class="text-justify"> Psicólogo e mestrando em Neurociências e Comportamento pela UFPA (Universidade Federal do Pará/ Belém/PA), Treinamento Intensivo em Ativação Comportamental para Depressão pelo IACC-Sul (Curitiba, PR) e Formação em Terapia de Aceitação e Compromisso e Terapia Analítica Funcional pelo Instituto Continuum (Londrina, PR).</p>
+          
+          <p class="text-justify"> Curso especialização em Clínica Analítico-Comportamental pelo Instituto Goiano de Análise do Comportamento (Goiânia, GO). Atuo na clínica, atendendo a adolescentes e adultos, com experiência em demandas de ansiedade, depressão, relacionamentos, estresse, autoconhecimento, entre outros.</p>
+          
+          <p class="text-justify"> Em terapia, atuarei no sentido de auxiliar você a lidar com emoções difíceis e construir uma vida com mais sentido e significado.</p>
+          
+          <p class="text-justify"> Realizo atendimento presencial e online.</p>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <br>
+    <br>
+  </div>
+   
+</div>
+<style>
+  .shadow {
+    -webkit-box-shadow: -2px 11px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: -2px 11px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: -2px 11px 20px 5px rgba(0,0,0,0.49);
+  }
+  .contact-link {
+    color: #0f6e30 !important;
+  }
+</style>
+
+    </div>
+
+  </div>
+</div>
+<style>
+  #about {
+    background-image: url("img/home-jumbotron.jpg");
+     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #about-wrapper {
+    height: 100%;
+  }
+</style>
+<div id="services" class="">
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container container-fluid">
+    <div class="col-md-12 text-center">
+      <h1>Serviços</h1>
+      <br>
+      <br>
+    </div>
+  </div>
+  
+     
+    <div>
+    
+      <div class="container" style="padding: 20px;">
+        <div class="row">
+          <div class="col-md-4 d-block d-sm-block d-md-none service-img-wrapper">
+            <img src="img/services/psychotherapy.png" alt="" class="img-fluid service-img">
+          </div>
+          
+          <div class="col-md-4">
+            <div class="d-flex flex-wrap align-items-center fill-height">
+              <img src="img/services/psychotherapy.png" alt="" class="img-fluid d-none d-md-block align-middle">
+            </div>
+          </div>
+           
+          <div class="col-md-8">
+            <h2>Psicoterapia</h2>
+            <hr>
+            <p class="text-justify lead d-none d-sm-none d-md-block d-lg-block">
+              A psicoterapia é um processo que envolve a comunicação entre cliente e terapeuta. Tem como objetivos fornecer ao cliente/paciente os recursos que ele precisa para conquistar suas metas e construir uma vida alinhada a seus valores pessoais, bem como ajudá-lo a encontrar alívio emocional, lidando de modo mais eficiente com a ansiedade, com o medo, com o estresse ou com a depressão. É a busca de soluções para a vida, de como enfrentar a decepção, a tristeza, problemas familiares e a insatisfação profissional. É um processo capaz de promover a modificação de formas de pensar e agir que impedem o trabalho de maneira produtiva e o desfrute de relacionamentos pessoais.
+            </p>
+            <p class="text-justify d-block d-sm-block d-md-none d-lg-none">
+              A psicoterapia é um processo que envolve a comunicação entre cliente e terapeuta. Tem como objetivos fornecer ao cliente/paciente os recursos que ele precisa para conquistar suas metas e construir uma vida alinhada a seus valores pessoais, bem como ajudá-lo a encontrar alívio emocional, lidando de modo mais eficiente com a ansiedade, com o medo, com o estresse ou com a depressão. É a busca de soluções para a vida, de como enfrentar a decepção, a tristeza, problemas familiares e a insatisfação profissional. É um processo capaz de promover a modificação de formas de pensar e agir que impedem o trabalho de maneira produtiva e o desfrute de relacionamentos pessoais.
+            </p>
+            
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  
+    
+    <div class="bg-primary-light">
+    
+      <div class="container" style="padding: 20px;">
+        <div class="row">
+          <div class="col-md-4 d-block d-sm-block d-md-none service-img-wrapper">
+            <img src="img/services/rent.png" alt="" class="img-fluid service-img">
+          </div>
+           
+          <div class="col-md-8">
+            <h2>Aluguel de Salas</h2>
+            <hr>
+            <p class="text-justify lead d-none d-sm-none d-md-block d-lg-block">
+              Assumimos nossa responsabilidade social e acreditamos que prudência em relação à segurança sanitária é muito necessária para que a pandemia de Coronavírus (COVID-19) não alcance níveis ainda mais preocupantes em nossa cidade. Como medida profilática, suspendemos temporariamente todas as nossas atividades  em Março de 2020, mas estamos planejando reabrir em Novembro de 2020, com uma nova estrutura, mais adequada ao momento que estamos passando. Aguardem!
+            </p>
+            <p class="text-justify d-block d-sm-block d-md-none d-lg-none">
+              Assumimos nossa responsabilidade social e acreditamos que prudência em relação à segurança sanitária é muito necessária para que a pandemia de Coronavírus (COVID-19) não alcance níveis ainda mais preocupantes em nossa cidade. Como medida profilática, suspendemos temporariamente todas as nossas atividades  em Março de 2020, mas estamos planejando reabrir em Novembro de 2020, com uma nova estrutura, mais adequada ao momento que estamos passando. Aguardem!
+            </p>
+            
+          </div>
+          
+          <div class="col-md-4 d-none d-md-block">
+            <div class="d-flex flex-wrap align-items-center fill-height">
+              <img src="img/services/rent.png" alt="" class="img-fluid align-middle">
+            </div>
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  
+     
+    <div>
+    
+      <div class="container" style="padding: 20px;">
+        <div class="row">
+          <div class="col-md-4 d-block d-sm-block d-md-none service-img-wrapper">
+            <img src="img/services/intervention.png" alt="" class="img-fluid service-img">
+          </div>
+          
+          <div class="col-md-4">
+            <div class="d-flex flex-wrap align-items-center fill-height">
+              <img src="img/services/intervention.png" alt="" class="img-fluid d-none d-md-block align-middle">
+            </div>
+          </div>
+           
+          <div class="col-md-8">
+            <h2>Intervisões</h2>
+            <hr>
+            <p class="text-justify lead d-none d-sm-none d-md-block d-lg-block">
+              As intervisões são ótimas ocasiões para aperfeiçoar as atividades dos profissionais da psicologia através da cooperação e do suporte recíproco entre esses profissionais. O grupo reflete a respeito de problemas, compartilha experiências e analisa casos. As intervisões devem ser tratadas como parcerias de crescimento conjunto que propiciam o desenvolvimento dos participantes.
+            </p>
+            <p class="text-justify d-block d-sm-block d-md-none d-lg-none">
+              As intervisões são ótimas ocasiões para aperfeiçoar as atividades dos profissionais da psicologia através da cooperação e do suporte recíproco entre esses profissionais. O grupo reflete a respeito de problemas, compartilha experiências e analisa casos. As intervisões devem ser tratadas como parcerias de crescimento conjunto que propiciam o desenvolvimento dos participantes.
+            </p>
+            
+            <div class="d-none d-sm-none d-md-block d-lg-block">
+              <a href="https://www.instagram.com/coworkingcrescer" class="btn btn-success">Saber Mais</a>
+            </div>
+            <div class="d-block d-sm-block d-md-none d-lg-none">
+              <a href="https://www.instagram.com/coworkingcrescer" class="btn btn-success btn-block">Saber Mais</a>
+            </div>
+            
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  
+    
+    <div class="bg-primary-light">
+    
+      <div class="container" style="padding: 20px;">
+        <div class="row">
+          <div class="col-md-4 d-block d-sm-block d-md-none service-img-wrapper">
+            <img src="img/services/learn.png" alt="" class="img-fluid service-img">
+          </div>
+           
+          <div class="col-md-8">
+            <h2>Ensino</h2>
+            <hr>
+            <p class="text-justify lead d-none d-sm-none d-md-block d-lg-block">
+              No Crescer são oferecidas oportunidades de participar de processos de ensino e aprendizagem, de desenvolvimento de habilidades e competências, através de cursos, treinamentos ou workshops. É importante lembrar que além do treino básico exigido para o exercício do ofício da Psicologia, os avanços técnicos e tecnológicos exigem atualização constantemente das habilidades ao longo de toda sua vida profissional.
+            </p>
+            <p class="text-justify d-block d-sm-block d-md-none d-lg-none">
+              No Crescer são oferecidas oportunidades de participar de processos de ensino e aprendizagem, de desenvolvimento de habilidades e competências, através de cursos, treinamentos ou workshops. É importante lembrar que além do treino básico exigido para o exercício do ofício da Psicologia, os avanços técnicos e tecnológicos exigem atualização constantemente das habilidades ao longo de toda sua vida profissional.
+            </p>
+            
+          </div>
+          
+          <div class="col-md-4 d-none d-md-block">
+            <div class="d-flex flex-wrap align-items-center fill-height">
+              <img src="img/services/learn.png" alt="" class="img-fluid align-middle">
+            </div>
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  
+     
+    <div>
+    
+      <div class="container" style="padding: 20px;">
+        <div class="row">
+          <div class="col-md-4 d-block d-sm-block d-md-none service-img-wrapper">
+            <img src="img/services/grouptherapy.png" alt="" class="img-fluid service-img">
+          </div>
+          
+          <div class="col-md-4">
+            <div class="d-flex flex-wrap align-items-center fill-height">
+              <img src="img/services/grouptherapy.png" alt="" class="img-fluid d-none d-md-block align-middle">
+            </div>
+          </div>
+           
+          <div class="col-md-8">
+            <h2>Rodas de Conversa</h2>
+            <hr>
+            <p class="text-justify lead d-none d-sm-none d-md-block d-lg-block">
+              Assumimos como nosso compromisso propor discussões e compartilhar informações pertinentes a respeito de saúde mental para a população em geral. Quinzenalmente, às quintas, criamos um evento em uma plataforma online, aberto ao público em geral, para discutirmos um tema relacionado à psicologia e bem estar.&#34;
+            </p>
+            <p class="text-justify d-block d-sm-block d-md-none d-lg-none">
+              Assumimos como nosso compromisso propor discussões e compartilhar informações pertinentes a respeito de saúde mental para a população em geral. Quinzenalmente, às quintas, criamos um evento em uma plataforma online, aberto ao público em geral, para discutirmos um tema relacionado à psicologia e bem estar.&#34;
+            </p>
+            
+            <div class="d-none d-sm-none d-md-block d-lg-block">
+              <a href="https://www.instagram.com/coworkingcrescer" class="btn btn-success">Saber Mais</a>
+            </div>
+            <div class="d-block d-sm-block d-md-none d-lg-none">
+              <a href="https://www.instagram.com/coworkingcrescer" class="btn btn-success btn-block">Saber Mais</a>
+            </div>
+            
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  
+    
+    <div class="bg-primary-light">
+    
+      <div class="container" style="padding: 20px;">
+        <div class="row">
+          <div class="col-md-4 d-block d-sm-block d-md-none service-img-wrapper">
+            <img src="img/services/coexistence.png" alt="" class="img-fluid service-img">
+          </div>
+           
+          <div class="col-md-8">
+            <h2>Convivência</h2>
+            <hr>
+            <p class="text-justify lead d-none d-sm-none d-md-block d-lg-block">
+              O espaço de convivência oferecido pelo Crescer é um local de desfrute da coexistência harmoniosa e compartilhamento de experiência pessoais e de trabalho entre os participantes. São disponibilizados internet de alta velocidade, mesas de trabalho, alimentação elétrica para os notebooks, água e cafezinho para os humanos.&#34;
+            </p>
+            <p class="text-justify d-block d-sm-block d-md-none d-lg-none">
+              O espaço de convivência oferecido pelo Crescer é um local de desfrute da coexistência harmoniosa e compartilhamento de experiência pessoais e de trabalho entre os participantes. São disponibilizados internet de alta velocidade, mesas de trabalho, alimentação elétrica para os notebooks, água e cafezinho para os humanos.&#34;
+            </p>
+            
+          </div>
+          
+          <div class="col-md-4 d-none d-md-block">
+            <div class="d-flex flex-wrap align-items-center fill-height">
+              <img src="img/services/coexistence.png" alt="" class="img-fluid align-middle">
+            </div>
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  
+</div>
+<style>
+  .service-img-wrapper {
+    height: 90px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+</style>
+
+    <div id="events" class="">
+  <div id="events-wrapper" style="background-color: rgba(255, 255, 255, 0.9);">
+    <div class="container fill-height">
+      <div class="row fill-height">
+        <div class="col-md-12 d-flex flex-wrap align-items-center fill-height">
+          <div class="align-middle fill-width text-center">
+            <img src="img/birds.png" alt="" class="img-fluid" style="height: 30vh !important;">
+            <h1>Nenhum Evento Agendado No Momento</h1>
+            <h2>Em Breve Estaremos Com Novos. Aguardem!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  #events {
+    background-image: url("img/no-events.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #events-wrapper {
+    height: 100%;
+  }
+</style>
+
+
+<div id="wherearewe" class="bg-primary-dark" style="color: white !important;">
+    <div id="location-wrapper" class="fill-height">
+      <div class="container fill-height">
+        <div class="row fill-height">
+          <div class="col-sm-12 col-md-8 offset-md-2 d-flex flex-wrap align-items-center fill-height">
+            <div class="align-middle fill-width text-center">
+              <h1><i class="far fa-compass"></i> Localização</h1>
+              <br>
+              <br>
+              <h3 class="lead text-justify">
+                Olá! No momento estamos mudando de endereço. Assim que confirmarmos o próximo endereço a página será atualizada
+              </p>
+              <br>
+              <p class="text-center">
+                <img src="img/moving-truck.png" alt="" class="img-fluid" width="300px">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    #wherearewe {
+      height: 100vh;
+    }
+  </style>
+
+<script>
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 750);
+});
+</script>
+
+        </div><div id="footer">
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Navegação</h4>
+        <ul class="nav flex-column">
+          
+          <li class="nav-item">
+            <a href="#about" class="nav-link active fg-primary-dark">Quem Somos</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#services" class="nav-link active fg-primary-dark">Serviços</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#events" class="nav-link active fg-primary-dark">Eventos</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#wherearewe" class="nav-link active fg-primary-dark">Onde Estamos</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Redes Socias</h4>
+        <ul class="nav flex-column">
+          
+          <li class="nav-item">
+            <a href="https://www.instagram.com/coworkingcrescer/" class="nav-link active fg-primary-dark">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="https://fb.me/crescercoworking" class="nav-link active fg-primary-dark">
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="https://www.youtube.com/channel/UCui1RcyYUUKdh0Sy1FfPetg" class="nav-link active fg-primary-dark">
+              <i class="fab fa-youtube"></i> YouTube
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <a href="#begin">
+          <img src="img/logos/large.png" alt="" class="img-fluid">
+        </a>
+        <br>
+        <br>
+        <p class="lead text-center">
+          
+          
+          <a href="https://wa.me/5591984823146" class="fg-primary-dark">(91) 98482-3146</a>
+          
+          &nbsp;
+          <a href="https://wa.me/5591991120112" class="fg-primary-dark">(91) 99112-0112</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        Developed with <i class="far fa-heart"></i> by <a href="https://www.linkedin.com/in/ramonmoraes8080/">Ramon Moraes</a>
+        
+      </div>
+    </div>
+  </div>
+  <br>
+</div></body>
+</html>
