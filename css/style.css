@@ -54,28 +54,31 @@ p.lead {
   border-color: #008054 !important;
 }
 
-
 #google-maps {
-  width: 100% !important;
+  width: 100% ;
+  height: 100px;
 }
 
 @media (min-width: 576px) {
   #google-maps {
-    height: 200px;
+    height: 100px !important;
   }
 }
+
 @media (min-width: 768px) {
   #google-maps {
-    height: 200px;
+    height: 150px !important;
   }
 }
+
 @media (min-width: 992px) {
   #google-maps {
-    height: 200px;
+    height: 200px !important;
   }
 }
+
 @media (min-width: 1200px) {
   #google-maps {
-    height: 250px;
+    height: 250px !important;
   }
 }
