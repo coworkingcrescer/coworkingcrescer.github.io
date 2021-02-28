@@ -72,12 +72,18 @@ p.lead {
 }
 
 @media (min-width: 992px) {
+  .event-desc {
+    min-height: 8em;
+  }
   #google-maps {
     height: 200px !important;
   }
 }
 
 @media (min-width: 1200px) {
+  .event-desc {
+    min-height: 8em;
+  }
   #google-maps {
     height: 250px !important;
   }
