@@ -3,11 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://coworkingcrecer.com.br/categories/</loc>
+    <loc>http://coworkingcrecer.com.br/</loc>
+    <lastmod>2021-11-27T13:23:38-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://coworkingcrecer.com.br/</loc>
+    <loc>http://coworkingcrecer.com.br/faq/</loc>
+    <lastmod>2021-11-27T13:23:38-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coworkingcrecer.com.br/categories/</loc>
   </url>
   
   <url>
